@@ -21,14 +21,14 @@ The dataset used for this project contains information about various cars and th
 
 The project directory is organized as follows:
 
-- **data/**: This directory contains the dataset used for training and testing the model.
-- **notebooks/**: Jupyter notebooks are provided for various stages of the project, including data exploration, preprocessing, model development, and evaluation.
-- **src/**: This directory holds the source code for the car price prediction model.
-  - **data_preprocessing.py**: A Python script for data preprocessing, which handles tasks such as missing value imputation, categorical variable encoding, and numerical feature scaling.
+- [data](data): This directory contains the dataset used for training and testing the model.
+- [jupyter](jupyter): Jupyter notebooks are provided for various stages of the project, including data exploration, preprocessing, model development, and evaluation.
+- [src](src): This directory holds the source code for the car price prediction model.
+  - [data_preprocessing.py]: A Python script for data preprocessing, which handles tasks such as missing value imputation, categorical variable encoding, and numerical feature scaling.
   - **model_training.py**: A Python script for training the machine learning model. The trained model is saved in the `models/` directory.
   - **predict.py**: A Python script for making car price predictions using the trained model.
 - **requirements.txt**: A text file listing the Python packages and dependencies required to run the code.
-- **README.md**: The current README file providing an overview and instructions for the project.
+- [README](README.md): The current README file providing an overview and instructions for the project.
 
 ## Getting Started
 
